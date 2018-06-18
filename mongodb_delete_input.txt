@@ -1,0 +1,2 @@
+db.people.deleteMany( { age: { $gt: 25, $lte: 50 } } )
+db.people.deleteMany( { age: 50 } )
